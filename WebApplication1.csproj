@@ -8,6 +8,13 @@
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+
+    <PackageReference Include="Google.Apis.Calendar.v3" Version="1.58.0.2759" />
+		<PackageReference Include="Google.Apis.Auth" Version="1.58.0" />
+		<PackageReference Include="Google.Apis.Core" Version="1.58.0" />
+		<PackageReference Include="Google.Apis.Drive.v2" Version="1.58.0.2859" />
+		<PackageReference Include="Google.Apis.Drive.v3" Version="1.58.0.2859" />
+
   </ItemGroup>
 
 </Project>
