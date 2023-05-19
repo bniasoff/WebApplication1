@@ -7,6 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Controllers\WeatherForecastController - Copy.cs" />
+    <Compile Remove="Interfaces\ICalendarEventRepository2.cs" />
+    <Compile Remove="Interfaces\IDatabaseRepository.cs" />
+    <Compile Remove="Interfaces\IGoogleDriveRepository.cs" />
+    <Compile Remove="Interfaces\IOpenXMLRepository.cs" />
+    <Compile Remove="Interfaces\IUserAccessor.cs" />
+    <Compile Remove="Repository\CalendarEventRepository copy.cs" />
+    <Compile Remove="Repository\DatabaseRepository.cs" />
+    <Compile Remove="Repository\GoogleDriveRepository.cs" />
+    <Compile Remove="Repository\OpenXMLRepository.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
 
     <PackageReference Include="Google.Apis.Calendar.v3" Version="1.58.0.2759" />
